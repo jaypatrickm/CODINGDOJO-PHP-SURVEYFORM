@@ -1,0 +1,75 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.25em;
+	/*background: url(nature-bg-resize.jpg) no-repeat;*/
+	background-size: cover;
+	color:white;
+}
+div#wrapper {
+	width: 300px;
+	margin: 0 auto;
+	padding: 21px;
+	border-radius: 10px;
+	background: rgba(50,50,50,0.8);
+}
+h1 {
+	display: block;
+	margin: 10px 0 10px 0;
+	padding-bottom: 3px;
+	border-bottom: 2px solid #fabb00;
+}
+h2 {
+	display: block;
+	margin: 10px 0 0 0;
+	background-color: #fabb00;
+	padding: 17px 0 10px 20px;
+	font-size: 0.6em;
+	color: #fff;
+}
+form#form-addUser {
+	margin: 20px 0 0 0;
+}
+	form#form-addUser div, table {
+		margin:20px 20px 20px 0;
+	}
+	label {
+		display: block;
+		margin: 0 0 1px 0;
+	}
+	input {
+		display: inline-block;
+		margin: 0 0 10px 0;
+		width: 250px;
+		height: 30px;
+		font-size: 0.75em;
+		padding: 0 0 0 10px;
+	}
+	form#form-addUser div.button button {
+		padding:13px 124px;
+		font-size: 0.75em;
+		border-radius: 4px;
+		border: 1px solid #A98A26;
+		background-color: #fabb00;
+		color: white;
+	}
+	form#form-addUser div.button button:hover {
+		background-color: #FADF17;
+	}
+	select {
+		padding: 0 12px;
+		height: 28px;
+		width: 256px;
+		border-radius:2px;
+		font-size: 0.75em;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		background: url(down.png) 96% / 5% no-repeat #eee;
+	}
+	textarea {
+		font-size: 0.75em;
+		width: 279px;
+		padding: 9px 9px 0 10px;
+		line-height: 140%;
+		resize: none;
+	}
